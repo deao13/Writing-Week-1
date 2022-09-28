@@ -1,8 +1,8 @@
 **Senin, 19 September 2022**
 
-###Unix Command Line, Git & Github Dasar
+### Unix Command Line, Git & Github Dasar
 
-####Unix Command Line
+#### Unix Command Line
 Mekanisme interaksi dengan sistem operasi atau perangkat lunak komputer dengan mengetikkan perintah untuk menjalankan tugas tertentu. Shell ini adalah program yang menerima perintah, kemudian meneruskan perintah tersebut ke system untuk dieksekusi. Selain command line, kita juga punya shell berbasis grafis yang lebih dikenal dengan nama GUI atau graphical user interface.
 
 1. Shell adalah program yang digunakan untuk memerintah sistem
@@ -20,7 +20,7 @@ Contoh GUI :
   - macOS
   - Ubuntu. 
 
-####Navigasi menggunakan CLI
+#### Navigasi menggunakan CLI
 
 **1. Filesystem**
 Sebuah filesystem mengatur bagaimana data disimpan di dalam sebuah system. Sistem operasi Windows & Unix-like menyusun file dan direktori menggunakan struktur yang bentuknya mirip tree. 
@@ -39,7 +39,7 @@ Sebuah filesystem mengatur bagaimana data disimpan di dalam sebuah system. Siste
   3. cd (directory) : Command untuk berpindah directory
   `cd /home/username/Downloads`
 
-####Manipulasi Files dan Directory
+#### Manipulasi Files dan Directory
 
 - **Membuat file dan directory**
   1. touch : Command untuk membuat suatu file
@@ -67,7 +67,7 @@ Sebuah filesystem mengatur bagaimana data disimpan di dalam sebuah system. Siste
 
 **Selasa, 20 September 2022**
 
-###HTML
+### HTML
 
 - HTML atau Hypertext Markup Language adalah suatu bahasa yang menggunakan tanda-tanda tertentu (tag) untuk menyatakan kode-kode yang harus ditafsirkan oleh browser agar halaman tersebut dapat ditampilkan secara benar.
 - HTML digunakan untuk menampilkan konten pada browser, seperti Text, Image, Video, Link, dan lain-lain.
@@ -80,7 +80,7 @@ Tools yang digunakan untuk membuat HTML :
 - Visual Studio Code dapat digunakan di Windows, Mac dan juga Linux
 
 
-####Dasar-dasar HTML
+#### Dasar-dasar HTML
 
 1. HTML Structure 
 HTML tersusun sebagai kesatuan dari sebuah tingkatan (family tree relationship). Saat sebuah element berada di dalam element lain, maka disebut child element. Element yang berada diatas element lain disebut parent element.
@@ -98,18 +98,18 @@ Attribute adalah properties dari sebuah HTML Element. Semua HTML Element memilik
 Dengan menggunakan HTML Comment, kita dapat memberikan penjelasan maksud dari line code yang kita kerjakan. Comment ini pasti selalu ada dalam bahasa pemrograman apapun. Comment tidak akan dieksekusi oleh sistem. Comment hanya untuk dibaca oleh sesama programmer.
 
 
-####Cara menjalankan HTML
+#### Cara menjalankan HTML
 1. Kita bisa menjalankan HTML dengan mencari lokasi file HTML kita lalu membukanya via browser
 2. install “Live Server” lalu kita bisa klik kanan pada file HTML kita dan ada pilihan open with “Live Server” maka HTML kita sudah auto reload
 
-####Cara membaca dokumentasi 
+#### Cara membaca dokumentasi 
 Untuk melihat seluruh element yang disediakan oleh HTML, kita bisa cek dokumentasi yang disediakan.
 
 Cek dokumentasi :
 - Resource by Mozilla
 - Documentation by W3schools
 
-####HTML Tag Popular 
+#### HTML Tag Popular 
 1. IMG : untuk menampilkan gambar
 2. Alt : Alternative
 3. Video : untuk menampilkan video
@@ -119,7 +119,7 @@ Cek dokumentasi :
 
 **Rabu, 21 September 2022**
 
-####CSS Foundation
+#### CSS Foundation
 
 
 - CSS atau Cascading Style Sheets, yaitu bahasa yang digunakan untuk menentukan tampilan dan format halaman website.
@@ -127,21 +127,21 @@ Cek dokumentasi :
 - CSS berfungsi untuk menjelaskan dan menata tampilan elemen yang tertulis pada bahasa markup, salah satunya adalah HTML.
 
 
-####Structure CSS
+#### Structure CSS
 - Struktur kode CSS terdiri dari tiga bagian: Selektor; Blok Deklarasi; Properti dan nilanya.
 
 
-####CSS Comment
+#### CSS Comment
 Dengan menggunakan CSS Comment, kita dapat memberikan penjelasan maksud dari line code yang kita kerjakan. Comment ini pasti selalu ada dalam bahasa pemrograman apapun. Comment tidak akan dieksekusi oleh sistem. Comment hanya untuk dibaca oleh sesama programmer
 
 
-####Cara menggunakan CSS
+#### Cara menggunakan CSS
 
 1. Inline Style : Menambahkan CSS pada atribute element HTML
 2. Bisa menggunakan Tag `<style>` pada file HTMl
 
 
-####CSS Files
+#### CSS Files
 Jika kita membutuhkan banyak code pada CSS, direkomendasikan untuk memisahkan code CSS di file tersendiri (extension .css) dan terpisah dari file HTML.
 
 
@@ -157,7 +157,7 @@ Jika kita membutuhkan banyak code pada CSS, direkomendasikan untuk memisahkan co
 
 **Kamis, 22 September 2022**
 
-####Algoritma & JS Dasar
+#### Algoritma & JS Dasar
 
 
 **1. Algoritma**
@@ -183,23 +183,23 @@ Jika kita membutuhkan banyak code pada CSS, direkomendasikan untuk memisahkan co
 - Menjalankan javascript umumnya browser pada setiap device user seperti Chrome dan Mozilla
 
 
-####Syntax dan Statement
+#### Syntax dan Statement
 - Syntax bisa dianalogikan seperti kosa kata (vocabulary) dan tata cara (grammar) pada bahasa pemograman.
 - Kita menggunakan syntax tertentu untuk membuat statement program, instruksi untuk djalankan/dieksekusi oleh web browser, compiler, ataupun intrepreter
 - Contoh Syntax : 
   1. Alert()
   2. Prompt()
   3. Confirm()
-####Console Log
+#### Console Log
 - Console Log adalah hal yang krusial bagi developer web.
 - Console log adalah tempat kita untuk cek logic pemograman web yang kita kembangkan
 - Console log juga tempat kita untuk melakukan debugging (mengetahui error pada code) pada pemograman web
 
-####Comments 
+#### Comments 
 - Comments adalah sintaks yang digunakan untuk memberi keterangan tentang suatu statement. Menggunakan bahasa inggris atau bahasa indonesia.
 - Comments tidak akan dijalankan oleh program karena hanya untuk dibaca oleh sesama programmer ataupun diri sendiri untuk memahami maksud dan tujuan sebuah statement/syntax.
 
-####Tipe Data
+#### Tipe Data
 - Tipe data adalah klasifikasi yang kita berikan untuk berbagai macam data yang digunakan dalam programming.
 - Macam-macam tipe data :
   1. number : tipe data yang mengandung semua angka termasuk angka desimal.
@@ -209,14 +209,14 @@ Jika kita membutuhkan banyak code pada CSS, direkomendasikan untuk memisahkan co
   5. undefined : tipe data yang merepresentasikan varibel/data yang tidak memiliki nilai.
   6. object : Tipe data pbject dapat menyimpan data dengan tipe data apapun (number, string, boolean, dan lainnya)
 
-####Variable 
+#### Variable 
 - Disemua bahasa pemograman, variable adalah container/tempat untuk menyimpan sebuah nilai
 - Ada 3 cara mendefinisikan sebuah variabel :
   1. var 
   2. let 
   3. const
 
-####Operator
+#### Operator
 - Assignment operator (=) : untuk menyimpan sebuah nilai pada variabel.
 - Increment dan Decrement : Gunakan increment atau decrement untuk menambah atau mengurangi sebesar 1 nilai.
 - Arithmetic Operator : Tambah (+), Kurang (-), Perkalian (*), Pembagian (/), Modulus (%)
@@ -226,7 +226,7 @@ Jika kita membutuhkan banyak code pada CSS, direkomendasikan untuk memisahkan co
 
 **Jumat, 23 September 2022**
 
-###JS Dasar Conditional & JS Dasar Looping
+### JS Dasar Conditional & JS Dasar Looping
 
 
 **1. JS Dasar Conditional**
